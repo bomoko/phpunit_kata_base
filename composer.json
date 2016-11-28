@@ -1,0 +1,13 @@
+{
+    "name": "bomoko/katabase",
+    "description": "Base setup for doing PHPUnit katas",
+    "type": "project",
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    },
+    "require": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
